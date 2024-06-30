@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="formulario">
+        <form action="cadastro.js" method="post">
+            <div id="div-email">
+                <label for="email-id">E-mail: </label>
+                <input type="email" name="email" id="email-id" required>
+            </div>
+            <div id="div-senha">
+                <label for="senha-id">Senha: </label>
+                <input type="password" name="senha" id="senha-id" requiread minlength="8">
+            </div>
+            <div id="div-botoes">
+                <div id="div-login"><input type="submit" value="Login"></div>
+                <div id="div-cadastrar"><a href="#" id="link-botao">CADASTRAR</a></div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
